@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include<chrono>
+#include <chrono>
 #include <omp.h>
 
 // 读取小端格式的四字节无符号整数
@@ -24,11 +24,6 @@ std::vector<uint32_t> read_array(std::ifstream& stream) {
         array[i] = read_uint32_le(stream);
     }
     return array;
-}
-void compressSegment(const std::vector<float>& array, std::vector<float>& compress, int start, int end) {
-    for (int i = start + 1; i <= end; ++i) {
-        compress[i] = array[i] - array[i - 1];
-    }
 }
 
 
