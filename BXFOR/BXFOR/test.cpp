@@ -25,7 +25,7 @@ std::vector<uint32_t> read_array(std::ifstream& stream) {
 }
 
 int main() {
-    for (int j = 0; j < 1000; j++) {
+    //for (int j = 0; j < 1000; j++) {
         std::ifstream file("D:/MyVS/BXFOR/ExpIndex", std::ios::binary);
         if (!file) {
             std::cerr << "无法打开文件" << std::endl;
@@ -49,7 +49,7 @@ int main() {
         auto afterTime = std::chrono::steady_clock::now();
         double time = std::chrono::duration<double>(afterTime - beforeTime).count();
         std::cout << " time=" << time << "seconds" << std::endl;
-        /*std::ofstream f("D:/MyVS/BXFOR/compress.txt", std::ios::app);
+        std::ofstream f("D:/MyVS/BXFOR/compress.txt", std::ios::app);
         if (!f.is_open()) {
             std::cerr << "无法打开文件" << std::endl;
             return 0;
@@ -57,18 +57,18 @@ int main() {
         for (float value : compress) {
             f << value << ' ';
         }
-        f.close();*/
-        /*std::ofstream f("D:/MyVS/BXFOR/array.txt", std::ios::app);
-        if (!f.is_open()) {
+        f.close();
+        std::ofstream f2("D:/MyVS/BXFOR/array.txt", std::ios::app);
+        if (!f2.is_open()) {
             std::cerr << "无法打开文件" << std::endl;
             return 0;
         }
         for (uint32_t value : array) {
-            f << value << ' ';
+            f2 << value << ' ';
         }
-        f.close();*/
+        f2.close();
 
         file.close();
-    }
+   // }
     return 0;
 }
