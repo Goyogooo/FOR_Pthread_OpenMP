@@ -1,0 +1,5 @@
+﻿  test.cpp
+D:\MyVS\BX_FOR_OpenMP_SIMD\BX_FOR_OpenMP_SIMD\test.cpp(45,21): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+D:\MyVS\BX_FOR_OpenMP_SIMD\BX_FOR_OpenMP_SIMD\test.cpp(64,37): warning C4018: “<=”: 有符号/无符号不匹配
+D:\MyVS\BX_FOR_OpenMP_SIMD\BX_FOR_OpenMP_SIMD\test.cpp(71,18): warning C4018: “<=”: 有符号/无符号不匹配
+  BX_FOR_OpenMP_SIMD.vcxproj -> D:\MyVS\BX_FOR_OpenMP_SIMD\x64\Debug\BX_FOR_OpenMP_SIMD.exe
