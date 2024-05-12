@@ -1,0 +1,5 @@
+﻿  test.cpp
+D:\MyVS\BX_FOR_Pthread_SIMD\BX_FOR_Pthread_SIMD\test.cpp(33,27): warning C4018: “<=”: 有符号/无符号不匹配
+D:\MyVS\BX_FOR_Pthread_SIMD\BX_FOR_Pthread_SIMD\test.cpp(40,14): warning C4018: “<=”: 有符号/无符号不匹配
+D:\MyVS\BX_FOR_Pthread_SIMD\BX_FOR_Pthread_SIMD\test.cpp(61,21): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  BX_FOR_Pthread_SIMD.vcxproj -> D:\MyVS\BX_FOR_Pthread_SIMD\x64\Debug\BX_FOR_Pthread_SIMD.exe
